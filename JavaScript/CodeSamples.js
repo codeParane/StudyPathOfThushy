@@ -39,4 +39,37 @@ function splitJoin(str1, str2){
 }
 
 //Write a JavaScript program to rotate the string 'w3resource' in right direction by 
-//periodically removing one letter from the end of the string and attaching it to the front
+//periodically removing one letter from the end of the string and attaching it to the front.
+var str = "w3resource";
+var rStr="";
+
+for(var i=str.length-1;i>=0;i--){
+  rStr+=str[i];
+}
+console.log(rStr);
+
+// Write a JavaScript program where the program takes a random integer between 1 to 10, the user is 
+// then prompted to input a guess number. If the user input matches with guess number, the program will 
+// display a message "Good Work" otherwise display a message "Not matched".  
+var randomNumber = Math.floor(Math.random()*10);
+var userInput = prompt("Enter Some Value");
+
+if(randomNumber == userInput)
+  console.log("Good Work");
+else
+  console.log("Not Matched");
+
+// Write a JavaScript program to check if a string "Script" presents at 5th (index 4) position in a given string,
+// if "Script" presents in the string return the string without "Script" otherwise return the original one. 
+var str1 = "Hi_this_is_string";
+var str = "Hi_oscripts_string";
+var strN="";
+
+if(str1.substring(4,10)=="script"){
+  strN += str1.substring(0,4);
+  strN += str1.substring(10);
+}else{
+  strN = str1;
+}
+
+console.log(strN);
