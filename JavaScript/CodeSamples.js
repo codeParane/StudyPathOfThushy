@@ -73,3 +73,6 @@ if(str1.substring(4,10)=="script"){
 }
 
 console.log(strN);
+
+
+
