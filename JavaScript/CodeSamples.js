@@ -112,3 +112,8 @@ for(var i = 0; i < str.length; i++){
   }
 }
 console.log(highLength);
+
+//Write a JavaScript program to get every nth element in an given array
+var arr = ["Apple", "Orange", "Mango", "Banana", "Pine Apple"];
+n = 3;
+console.log(arr[n]);
